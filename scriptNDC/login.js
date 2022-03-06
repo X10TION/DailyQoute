@@ -4,7 +4,7 @@ function getInputValue(){
     var inputVal = document.getElementById("myInput").value;
     
     // Displaying the value
-    if(inputVal == "Yol 1" || inputVal == "Yol 01 SEC 01" || inputVal == "Yol 01 SEC 02" || inputVal == "Yol 01 SEC 03" || inputVal == "Yol 01 SEC 04"  ){
+    if(inputVal == "YOL 01" || inputVal == "Yol 01 SEC 01" || inputVal == "Yol 01 SEC 02" || inputVal == "Yol 01 SEC 03" || inputVal == "Yol 01 SEC 04"  ){
         
         window.location.href = 'Record.html';
     }
