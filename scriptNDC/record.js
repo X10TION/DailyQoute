@@ -1,11 +1,12 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyAXH5VZVikX7BUZ3g0E014F37da2favq8k",
-    authDomain: "nigerianbereweriesoutlet.firebaseapp.com",
-    projectId: "nigerianbereweriesoutlet",
-    storageBucket: "nigerianbereweriesoutlet.appspot.com",
-    messagingSenderId: "79760620230",
-    appId: "1:79760620230:web:cdbd423673813ae5ad75c7"
+    apiKey: "AIzaSyDdFLEBiZhQo1eU2AqwYI2PxMtJepQOSQE",
+    authDomain: "nbdco-20a15.firebaseapp.com",
+    projectId: "nbdco-20a15",
+    storageBucket: "nbdco-20a15.appspot.com",
+    messagingSenderId: "340399498441",
+    appId: "1:340399498441:web:f20042a4a95fbe636e5918"
   };
+
     firebase.initializeApp(firebaseConfig);
 
 const regModel = document.getElementById('openRegisterModel')
