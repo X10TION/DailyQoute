@@ -281,7 +281,7 @@ document.getElementById('select').onclick = function(){
         SubChannel : SubChannel,
          Channel :  Channel,
         visit : visit,
-        owner : owner;
+        owner : owner,
 
 
        
