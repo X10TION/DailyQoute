@@ -52,7 +52,7 @@ function showPosition(position) {
 // console.log(option.value);
 
 var  initialTitle, PreferredDayVisit,CountryTrade,firstName,middleName,lastName,Code,phone,state,lga,City,Country2,Zone,Region,SalesArea,Territory,SectorCluster,Section,
-Classification,VisitFrequency,Latitude,Longitude,houseNo,Street1,Street2,Street3,RelationshipType,SubChannel,Channel,visit;
+Classification,VisitFrequency,owner,Latitude,Longitude,houseNo,Street1,Street2,Street3,RelationshipType,SubChannel,Channel,visit;
 //////// ready data//////////////////
 function Ready(){
     
@@ -71,7 +71,7 @@ function Ready(){
     // console.log(businessSeg.value);
     CountryTrade = businessSeg.value;
 
-
+    owner = document.getElementById('owner').value;
     firstName  = document.getElementById('firstName').value;
     middleName = document.getElementById('middleName').value;
     lastName = document.getElementById('lastName').value;
@@ -122,7 +122,7 @@ function Ready2(){
     // // console.log(businessSeg.value);
     // CountryTrade = businessSeg.value;
 
-
+    owner = document.getElementById('owner').value;
     firstName  = document.getElementById('firstName').value;
     middleName = document.getElementById('middleName').value;
     lastName = document.getElementById('lastName').value;
@@ -194,6 +194,7 @@ document.getElementById('saveREC').onclick = function(){
   SubChannel : SubChannel,
    Channel :  Channel,
   visit : visit,
+  owner:owner,
 
 
  
@@ -239,6 +240,7 @@ document.getElementById('select').onclick = function(){
     document.getElementById('SubChannel').value = snapshot.val().SubChannel;
     document.getElementById('Channel').value = snapshot.val().Channel;
     document.getElementById('visit').value = snapshot.val().visit;
+    document.getElementById('owner').value = snapshot.val().owner;
 
   });
 }
@@ -279,6 +281,7 @@ document.getElementById('select').onclick = function(){
         SubChannel : SubChannel,
          Channel :  Channel,
         visit : visit,
+        owner : owner;
 
 
        
