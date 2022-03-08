@@ -1,6 +1,7 @@
-const firebaseConfig = {
+ const firebaseConfig = {
     apiKey: "AIzaSyDdFLEBiZhQo1eU2AqwYI2PxMtJepQOSQE",
     authDomain: "nbdco-20a15.firebaseapp.com",
+    databaseURL: "https://nbdco-20a15-default-rtdb.firebaseio.com",
     projectId: "nbdco-20a15",
     storageBucket: "nbdco-20a15.appspot.com",
     messagingSenderId: "340399498441",
